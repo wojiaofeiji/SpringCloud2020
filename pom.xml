@@ -93,7 +93,7 @@
     </dependencyManagement>
 
     <build>
-        <finalName>Cloud 2020 热部署DevTools需要build插件</finalName>
+<!--        <finalName>Cloud 2020 热部署DevTools需要build插件</finalName>-->
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
