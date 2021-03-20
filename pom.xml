@@ -12,6 +12,8 @@
 
     <modules>
         <module>cloud-0spring-boot</module>
+        <module>cloud-15eureka-server</module>
+        <module>cloud-api-common</module>
 
     </modules>
 
