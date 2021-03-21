@@ -14,7 +14,6 @@
     <description>Spring boot项目， 对应的是视频的1-14章实例</description>
 
     <modules>
-        <module>cloud-0api-common</module>
         <module>cloud-0provider-payment8001</module>
         <module>cloud-0consumer-order80</module>
     </modules>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>cloud2020</artifactId>
+        <groupId>com.atguigu.springcloud</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>cloud-36ribbon-lb</artifactId>
+    <packaging>pom</packaging>
+    <description>
+        Ribbon做服务负载均衡，对应视频36-42
+        Spring cloud ribbon是基于Netflix Ribbon实现的一套“客户端”负载均衡的工具
+        主要功能是提供客户端的软件负载均衡算法和服务调用,一句话负载均衡+resttemplate
+        Ribbon目前已经进入了维护模式，未来替代方案是Springcloud loadBanlance
+    </description>
+
+    <modules>
+        <module>cloud-36consumer-order80</module>
+        <module>cloud-36eureka-server7001</module>
+        <module>cloud-36privider-payment8002</module>
+        <module>cloud-36privider-payment8001</module>
+    </modules>
+
+</project>

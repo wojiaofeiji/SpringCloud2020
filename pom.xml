@@ -11,12 +11,12 @@
     <description>父工程,统一管理jar包版本</description>
 
     <modules>
+        <module>cloud-api-common</module>
         <module>cloud-0spring-boot</module>
         <module>cloud-15eureka-server</module>
-        <module>cloud-api-common</module>
         <module>cloud-28zookeeper-server</module>
         <module>cloud-30consule-server</module>
-
+        <module>cloud-36ribbon-lb</module>
     </modules>
 
 
