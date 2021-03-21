@@ -17,6 +17,8 @@
         <module>cloud-28zookeeper-server</module>
         <module>cloud-30consule-server</module>
         <module>cloud-36ribbon-lb</module>
+        <module>cloud-43openFeign-client</module>
+        <module>cloud-47hystrix-and-dashboard</module>
     </modules>
 
 
