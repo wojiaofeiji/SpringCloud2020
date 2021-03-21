@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>cloud2020</artifactId>
+        <groupId>com.atguigu.springcloud</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>cloud-30consule-server</artifactId>
+    <packaging>pom</packaging>
+    <description>
+        consule作为服务注册中心，对应视频30-34
+        Consule是一套开源的分布式服务发现和配置管理系统，有HashiCorp使用Go语言开发
+        提供了微服务系统中的服务治理、配置中心、控制总线等功能。可以单独使用，也可以一起使用构建全方位的服务网格.
+    </description>
+    <modules>
+        <module>cloud-30consule-consumer-order80</module>
+        <module>cloud-30consule-provider-payment8006</module>
+    </modules>
+
+</project>

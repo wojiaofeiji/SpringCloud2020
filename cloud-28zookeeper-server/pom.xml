@@ -11,6 +11,7 @@
 
     <artifactId>cloud-28zookeeper-server</artifactId>
     <packaging>pom</packaging>
+    <description>zk作为服务注册中心，对应视频28-29</description>
 
     <modules>
         <module>cluod-28provider-zk-payment8004</module>
