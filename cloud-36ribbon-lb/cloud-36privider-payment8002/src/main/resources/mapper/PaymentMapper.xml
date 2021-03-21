@@ -2,16 +2,16 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <!--mapper指定关联哪个Dao,即使用Idea,可以选择点击则直接进入关联类文件-->
-<mapper namespace="PaymentDao">
+<mapper namespace="com.fredg.springcloud.dao.PaymentDao">
     <!--paramterType指定对象-->
-    <insert id="create" parameterType="Payment" useGeneratedKeys="true"
+    <insert id="create" parameterType="com.fredg.springcloud.entities.Payment" useGeneratedKeys="true"
             keyProperty="id">
         /*#{serial} mybatis设置参数的方法*/
         insert into payment (serial) values (#{serial});
     </insert>
 
     <!--一般指定resultMap, 因为数据库字段命名可能有很多中，例如下划线形式-->
-    <resultMap id="BaseResultMap" type="Payment">
+    <resultMap id="BaseResultMap" type="com.fredg.springcloud.entities.Payment">
         <id column="id" property="id" jdbcType="BIGINT"/>
         <id column="serial" property="serial" jdbcType="VARCHAR"/>
     </resultMap>

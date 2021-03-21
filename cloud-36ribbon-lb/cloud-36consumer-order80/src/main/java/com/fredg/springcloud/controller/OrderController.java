@@ -31,15 +31,6 @@ public class OrderController {
     private RestTemplate restTemplate;
 
     /**
-     * 自定义负载均衡规则
-     */
-    @Resource
-    private LoadBalancer loadBalancer;
-
-    @Resource
-    private DiscoveryClient discoveryClient;
-
-    /**
      * http://localhost/consumer/payment/create?serial=atguigu002
      * Spring restTemplate的使用 RestFul的远程http调用工具类
      * 此处的名称只是增加一个consumer模块名称.
@@ -78,21 +69,6 @@ public class OrderController {
         return new CommonResult<>(444, "操作失败");
     }
 
-    /**
-     * 路由规则: 轮询
-     * http://localhost/consumer/payment/payment/lb
-     *
-     * @return
-     */
-    @GetMapping(value = "/consumer/payment/lb")
-    public String getPaymentLB() {
-        List<ServiceInstance> instances = discoveryClient.getInstances("CLOUD-PAYMENT-SERVICE");
-        if (instances == null || instances.size() <= 0) {
-            return null;
-        }
-        ServiceInstance serviceInstance = loadBalancer.instances(instances);
-        URI uri = serviceInstance.getUri();
-        return restTemplate.getForObject(uri + "/payment/lb", String.class);
-    }
+
 
 }

@@ -16,7 +16,7 @@ eureka:
     lease-expiration-duration-in-seconds: 2
   server:
     # 禁用自我保护,保证不可用服务被及时删除 默认保护true
-    enable-self-preservation: false
+    enable-self-preservation: true
     eviction-interval-timer-in-ms: 2000
   client:
     # false表示不向注册中心注册自己

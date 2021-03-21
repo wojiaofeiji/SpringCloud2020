@@ -12,7 +12,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  * @author zzyy
  * @date 2020/3/6 16:05
  **/
-@Component
+@Component("myLoadBalancer")
 public class MyLB implements LoadBalancer {
     private AtomicInteger atomicInteger = new AtomicInteger(0);
 

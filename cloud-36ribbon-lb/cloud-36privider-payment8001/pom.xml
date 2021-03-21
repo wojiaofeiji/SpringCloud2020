@@ -10,6 +10,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>cloud-36privider-payment8001</artifactId>
+    <description>
+        在这个payment的建立过程中， 多次发现包确实引入到pom.xml中， 但是maven命令和idea maven工具都不能编译成功
+        并且idea重新启动一次也无法生效
+        后来发现是父工程中common-api的包从com.atgugui变成了我的com.fredg
+        最后删除原先import, 重新import才解决！
+    </description>
     <!--默认是jar
     <packaging>jar</packaging>-->
 
