@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>cloud2020</artifactId>
+        <groupId>com.atguigu.springcloud</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>cloud-47hystrix-and-dashboard</artifactId>
+    <packaging>pom</packaging>
+    <description>
+        熔断器hystix, 对应的视频47-64
+        是为了应对微服务中，多个服务调用链容易导致的服务雪崩的问题
+        EnableCircuitBreaker与EnableHystrix ： @EnableHystrix注解已经涵盖了EnableCircuitBreaker的功能
+    </description>
+    <modules>
+        <module>cloud-47hystrix-provider-payment8001</module>
+        <module>cloud-47hystix-consumer-order80</module>
+        <module>cloud-47eureka-server7001</module>
+    </modules>
+
+</project>
