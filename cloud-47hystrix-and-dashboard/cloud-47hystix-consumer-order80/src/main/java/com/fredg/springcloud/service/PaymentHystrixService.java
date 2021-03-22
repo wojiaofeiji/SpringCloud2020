@@ -1,4 +1,4 @@
-package com.atguigu.springcloud.service;
+package com.fredg.springcloud.service;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.stereotype.Component;

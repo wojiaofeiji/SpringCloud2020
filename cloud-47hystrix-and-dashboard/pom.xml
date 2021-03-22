@@ -20,6 +20,7 @@
         <module>cloud-47hystrix-provider-payment8001</module>
         <module>cloud-47hystix-consumer-order80</module>
         <module>cloud-47eureka-server7001</module>
+        <module>cloud-47hystrixdashboard-consumer9001</module>
     </modules>
 
 </project>

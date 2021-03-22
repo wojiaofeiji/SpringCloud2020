@@ -1,6 +1,6 @@
-package com.atguigu.springcloud.controller;
+package com.fredg.springcloud.controller;
 
-import com.atguigu.springcloud.service.PaymentHystrixService;
+import com.fredg.springcloud.service.PaymentHystrixService;
 import com.netflix.hystrix.contrib.javanica.annotation.DefaultProperties;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import lombok.extern.slf4j.Slf4j;

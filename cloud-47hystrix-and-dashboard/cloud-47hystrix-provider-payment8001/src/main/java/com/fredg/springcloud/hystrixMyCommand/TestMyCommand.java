@@ -1,4 +1,4 @@
-package com.atguigu.springcloud.hystrixMyCommand;
+package com.fredg.springcloud.hystrixMyCommand;
 
 /**
  * @auther FredG.

@@ -10,3 +10,13 @@ eureka:
     fetch-registry: true
     service-url:
       defaultZone: http://eureka7001.com:7001/eureka
+
+
+#  在被监控的服务上添加暴露点
+#  http://localhost:8001/actuator/hystrix.stream
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream
+#       include: '*'   #'*'代表开放所有端点。

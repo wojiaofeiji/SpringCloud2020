@@ -1,6 +1,6 @@
-package com.atguigu.springcloud.controller;
+package com.fredg.springcloud.controller;
 
-import com.atguigu.springcloud.service.PaymentService;
+import com.fredg.springcloud.service.PaymentService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
