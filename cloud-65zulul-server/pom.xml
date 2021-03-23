@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>cloud2020</artifactId>
+        <groupId>com.atguigu.springcloud</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>cloud-65zulul-server</artifactId>
+    <description>
+        Zuul因为内部发生重大的变化， 所以不讲
+        准备出zuul2，但是zuul2又内部分歧， 所以zuul不维护了，zuul2又没有研发出来
+    </description>
+
+</project>

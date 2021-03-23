@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>cloud2020</artifactId>
+        <groupId>com.atguigu.springcloud</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>cloud-66gataway-server</artifactId>
+    <packaging>pom</packaging>
+    <description>
+        Cloud全家桶中一个很重要的组件就是网关， 在1.x版本中都是采用zuul 对应视频66-73
+        但在2.x版本中，zuul升级一直跳票，所以springcloud最后自己研发出一个网关替代zuul
+        Gateway是在Spring生态系统之上构建的API网关服务，基于Spring5,SpringBoot2和Project Reactor等技术
+        Gateway旨在提供一种简单有效的方式来对Api进行路由，以及提供一些强大过滤器功能，例如：熔断，限流，重试
+    </description>
+    <modules>
+        <module>cloud-66gateway-gataway9527</module>
+        <module>cloud-66eureka-server7001</module>
+        <module>cloud-66provider-payment8001</module>
+    </modules>
+
+</project>
