@@ -21,6 +21,8 @@
         <module>cloud-47hystrix-and-dashboard</module>
         <module>cloud-65zulul-server</module>
         <module>cloud-66gataway-server</module>
+        <module>cloud-74spring-config</module>
+        <module>cloud-78config-bus</module>
     </modules>
 
 

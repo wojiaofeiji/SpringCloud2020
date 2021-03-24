@@ -1,0 +1,21 @@
+server:
+  port: 3344
+
+spring:
+  application:
+    name: cloud-config-center
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/wojiaofeiji/springconfig.git
+          search-paths:
+            - spring-config
+      label: master
+
+# 暴露监控端口 curl -X POST "http://localhost:3355/actuator/refresh"
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

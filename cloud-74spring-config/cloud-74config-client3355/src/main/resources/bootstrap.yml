@@ -1,0 +1,22 @@
+# 启动上下文时，Spring Cloud 会创建一个 Bootstrap Context，作为 Spring 应用的 Application Context 的父上下文。
+# 初始化的时候，Bootstrap Context 负责从外部源加载配置属性并解析配置。这两个上下文共享一个从外部获取的 Environment。Bootstrap 属性有高优先级，默认情况下，它们不会被本地配置覆盖。
+# 也就是说如果加载的 application.yml 的内容标签与 bootstrap 的标签一致，application 也不会覆盖 bootstrap，而 application.yml 里面的内容可以动态替换
+server:
+  port: 3355
+
+spring:
+  application:
+    name: config-client
+  cloud:
+    config:
+      label: master # 分支名称
+      name: config #配置文件名称
+      profile: dev # 读取的后缀，上述三个综合，为master分支上的config-dev.yml的配置文件被读取，http://config-3344.com:3344/master/config-dev.yml
+      uri: http://config-3344.com:3344 #配置中心的地址
+
+# 暴露监控端口 curl -X POST "http://localhost:3355/actuator/refresh"
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
