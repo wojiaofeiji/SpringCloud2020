@@ -1,7 +1,7 @@
 package com.atguigu.springcloud.myhandler;
 
 import com.alibaba.csp.sentinel.slots.block.BlockException;
-import com.atguigu.springcloud.entities.CommonResult;
+import com.fredg.springcloud.entities.CommonResult;
 
 /**
  *

@@ -1,7 +1,7 @@
 package com.atguigu.springcloud.controller;
 
-import com.atguigu.springcloud.entities.CommonResult;
-import com.atguigu.springcloud.entities.Payment;
+import com.fredg.springcloud.entities.CommonResult;
+import com.fredg.springcloud.entities.Payment;
 import com.atguigu.springcloud.service.PaymentService;
 import com.alibaba.csp.sentinel.annotation.SentinelResource;
 import com.alibaba.csp.sentinel.slots.block.BlockException;

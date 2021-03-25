@@ -1,6 +1,6 @@
 package com.fredg.springcloud.service;
 
-import com.atguigu.springcloud.entities.Payment;
+import com.fredg.springcloud.entities.Payment;
 
 /**
  * @author zzyy

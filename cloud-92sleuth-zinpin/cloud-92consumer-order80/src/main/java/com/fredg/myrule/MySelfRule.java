@@ -1,4 +1,4 @@
-package com.atguigu.myrule;
+package com.fredg.myrule;
 
 import com.netflix.loadbalancer.IRule;
 import com.netflix.loadbalancer.RoundRobinRule;

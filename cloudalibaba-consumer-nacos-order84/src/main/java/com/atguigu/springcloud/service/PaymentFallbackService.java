@@ -1,7 +1,7 @@
 package com.atguigu.springcloud.service;
 
-import com.atguigu.springcloud.entities.CommonResult;
-import com.atguigu.springcloud.entities.Payment;
+import com.fredg.springcloud.entities.CommonResult;
+import com.fredg.springcloud.entities.Payment;
 import org.springframework.stereotype.Component;
 
 /**

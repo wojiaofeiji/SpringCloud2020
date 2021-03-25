@@ -1,7 +1,7 @@
 package com.fredg.springcloud.controller;
 
-import com.atguigu.springcloud.entities.CommonResult;
-import com.atguigu.springcloud.entities.Payment;
+import com.fredg.springcloud.entities.CommonResult;
+import com.fredg.springcloud.entities.Payment;
 import com.fredg.springcloud.lb.LoadBalancer;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.cloud.client.ServiceInstance;
