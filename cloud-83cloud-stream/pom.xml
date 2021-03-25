@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>cloud2020</artifactId>
+        <groupId>com.atguigu.springcloud</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>cloud-83cloud-stream</artifactId>
+    <packaging>pom</packaging>
+    <description>
+        spring cloud stream是一个构建消息驱动微服务的框架，对应视频83-91
+        应用程序通过inputs和outpus来与Spring cloud stream中的binder对象交互
+    </description>
+
+    <modules>
+        <module>cloud-83eureka-server7001</module>
+        <module>cloud-83stream-rabbitmq-provider8801</module>
+        <module>cloud-83stream-rabbitmq-consumer8802</module>
+        <module>cloud-83stream-rabbitmq-consumer8803</module>
+    </modules>
+
+</project>

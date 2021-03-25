@@ -23,6 +23,7 @@
         <module>cloud-66gataway-server</module>
         <module>cloud-74spring-config</module>
         <module>cloud-78config-bus</module>
+        <module>cloud-83cloud-stream</module>
     </modules>
 
 
