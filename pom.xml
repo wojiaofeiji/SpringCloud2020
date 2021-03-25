@@ -24,6 +24,7 @@
         <module>cloud-74spring-config</module>
         <module>cloud-78config-bus</module>
         <module>cloud-83cloud-stream</module>
+        <module>cloud-93sleuth-zinpin</module>
     </modules>
 
 
