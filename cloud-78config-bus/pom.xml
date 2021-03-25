@@ -11,6 +11,14 @@
 
     <artifactId>cloud-78config-bus</artifactId>
     <packaging>pom</packaging>
+    <description>
+        Spring bus消息总线， 对应视频的78-82
+        Spring cloud bus是用来将分布式系统的节点与轻量级的消息系统连接
+        他整合了java的事件处理机制和消息中间件的功能
+        Spring cloud bus目前支持RabbitMQ和Kafka
+
+        配合Spring config可以实现配置的动态刷新
+    </description>
 
     <modules>
         <module>cloud-78config-center3344</module>

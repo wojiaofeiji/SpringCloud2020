@@ -11,6 +11,11 @@
 
     <artifactId>cloud-74spring-config</artifactId>
     <packaging>pom</packaging>
+    <description>
+        Spring cloud config是微服务架构中的微服务提供集中化的外部配置支持， 对应视频66-73
+        Springcloud config分为服务端和客户端两部分
+    </description>
+
     <modules>
         <module>cloud-74config-client3355</module>
         <module>cloud-74config-center3344</module>
