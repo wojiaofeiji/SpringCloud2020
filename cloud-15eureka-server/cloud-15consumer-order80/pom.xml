@@ -17,7 +17,7 @@
         <!--内部依赖-->
         <dependency>
             <groupId>com.fredg.springcloud</groupId>
-            <artifactId>cloud-0api-common</artifactId>
+            <artifactId>cloud-api-common</artifactId>
             <version>${project.version}</version>
         </dependency>
 
