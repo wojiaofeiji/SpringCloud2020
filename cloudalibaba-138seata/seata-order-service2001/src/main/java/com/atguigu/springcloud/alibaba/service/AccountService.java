@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import java.math.BigDecimal;
 
 /**
- * @author zzyy
+ * @author FredG
  * @date 2020/3/8 13:55
  **/
 @FeignClient(value = "seata-account-service")

@@ -6,7 +6,7 @@ import lombok.NoArgsConstructor;
 
 /**
  * 库存实体类
- * @author zzyy
+ * @author FredG
  * @date 2020/3/8 15:36
  **/
 @Data

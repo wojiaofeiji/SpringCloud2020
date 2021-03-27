@@ -6,7 +6,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
 /**
- * @author zzyy
+ * @author FredG
  * @date 2020/02/18 17:20
  **/
 @SpringBootApplication

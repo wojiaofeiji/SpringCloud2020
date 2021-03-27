@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 import javax.annotation.Resource;
 
 /**
- * @author zzyy
+ * @author FredG
  * @date 2020/3/8 15:44
  **/
 @Service

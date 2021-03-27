@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 /**
  * OpenFeignClient配置
  *
- * @author zzyy
+ * @author FredG
  * @create 2020/3/6 18:02
  **/
 @Configuration

@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 /**
  * 统一返回结果体
  *
- * @author zzyy
+ * @author FredG
  * @date 2020/3/8 12:22
  **/
 @Data

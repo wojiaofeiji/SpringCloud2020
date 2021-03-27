@@ -20,7 +20,7 @@ import javax.sql.DataSource;
 
  * seata管理数据源
  *
- * @author zzyy
+ * @author FredG
  * @version 1.0
  * @create 2020/3/8 15:35
  */

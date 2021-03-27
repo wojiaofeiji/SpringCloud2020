@@ -9,7 +9,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 /**
  * Ribbon手写轮询算法
  *
- * @author zzyy
+ * @author FredG
  * @date 2020/3/6 16:05
  **/
 @Component

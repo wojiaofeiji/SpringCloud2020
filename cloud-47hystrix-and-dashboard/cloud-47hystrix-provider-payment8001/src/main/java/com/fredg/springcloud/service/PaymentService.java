@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author zzyy
+ * @author FredG
  * @create 2020/3/6 22:23
  **/
 @Service

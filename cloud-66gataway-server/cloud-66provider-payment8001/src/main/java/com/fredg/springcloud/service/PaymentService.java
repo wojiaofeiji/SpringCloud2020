@@ -3,7 +3,7 @@ package com.fredg.springcloud.service;
 import com.fredg.springcloud.entities.Payment;
 
 /**
- * @author zzyy
+ * @author FredG
  * @date 2020/2/18 10:40
  **/
 public interface PaymentService {

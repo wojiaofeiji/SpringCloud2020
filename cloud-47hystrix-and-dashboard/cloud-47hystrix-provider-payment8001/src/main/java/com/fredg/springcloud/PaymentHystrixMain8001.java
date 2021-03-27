@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Bean;
 /**
  * Circuit: 维度
  *
- * @author zzyy
+ * @author FredG
  * @EnableCircuitBreaker:启用hystrix服务降级
  * @create 2020/3/6 22:21
  **/

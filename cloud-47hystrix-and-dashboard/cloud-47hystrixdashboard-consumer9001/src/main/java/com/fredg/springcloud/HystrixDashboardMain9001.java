@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Bean;
 
 /**
  * 地址：http://localhost:9001/hystrix 监控地址填写 http://localhost:8001/hystrix.stream
- * @author zzyy
+ * @author FredG
  * @create 2020/3/7 17:27
  **/
 @SpringBootApplication

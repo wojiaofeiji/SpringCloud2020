@@ -1,7 +1,7 @@
 package com.atguigu.springcloud.alibaba.service;
 
 /**
- * @author zzyy
+ * @author FredG
  * @date 2020/3/8 15:43
  **/
 public interface StorageService {

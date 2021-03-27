@@ -2,7 +2,7 @@ package com.atguigu.springcloud.alibaba.service;
 import com.atguigu.springcloud.alibaba.domain.*;
 
 /**
- * @author zzyy
+ * @author FredG
  * @date 2020/3/8 13:55
  **/
 public interface OrderService {

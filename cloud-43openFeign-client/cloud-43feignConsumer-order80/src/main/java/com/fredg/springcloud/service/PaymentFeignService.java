@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
 /**
- * @author zzyy
+ * @author FredG
  * @create 2020-02-19 23:59
  */
 @Component

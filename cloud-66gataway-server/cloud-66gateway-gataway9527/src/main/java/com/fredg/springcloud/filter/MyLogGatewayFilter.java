@@ -22,7 +22,7 @@ import java.util.Date;
 /**
  * 全局自定义过滤器
  *
- * @author zzyy
+ * @author FredG
  * @version 1.0
  * @create 2020/03/06
  */

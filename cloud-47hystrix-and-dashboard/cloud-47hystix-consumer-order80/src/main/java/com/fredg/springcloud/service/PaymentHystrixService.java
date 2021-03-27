@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
 /**
- * @author zzyy
+ * @author FredG
  * @create 2020/3/6 23:19
  **/
 @Component

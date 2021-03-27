@@ -5,7 +5,7 @@ import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 /**
- * @author zzyy
+ * @author FredG
  * @date 2020/2/18 10:27
  **/
 @Mapper //如果使用的Mybatis，推荐使用@Mapper

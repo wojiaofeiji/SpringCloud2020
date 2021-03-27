@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.annotation.Resource;
 
 /**
- * @author zzyy
+ * @author FredG
  * @create 2020/3/6 22:30
  **/
 @RestController

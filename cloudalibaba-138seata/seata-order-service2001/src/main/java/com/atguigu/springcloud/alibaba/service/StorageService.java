@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 /**
  * 库存服务
  *
- * @author zzyy
+ * @author FredG
  * @date 2020/3/8 13:56
  **/
 @FeignClient(value = "seata-storage-service")

@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 /**
  * 账户实体类
  *
- * @author zzyy
+ * @author FredG
  * @date 2020/3/8 12:28
  **/
 @Data

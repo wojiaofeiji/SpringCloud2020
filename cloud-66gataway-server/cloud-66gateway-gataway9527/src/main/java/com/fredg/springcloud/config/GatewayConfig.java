@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
 /**
  * 网关配置
  *
- * @author zzyy
+ * @author FredG
  * @version 1.0
  * @create 2020/03/06
  */

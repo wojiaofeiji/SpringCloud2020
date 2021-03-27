@@ -8,7 +8,7 @@ package com.fredg.springcloud.controller;
         import javax.annotation.Resource;
 
 /**
- * @author zzyy
+ * @author FredG
  * @create 2020-02-18 17:23
  **/
 @RestController

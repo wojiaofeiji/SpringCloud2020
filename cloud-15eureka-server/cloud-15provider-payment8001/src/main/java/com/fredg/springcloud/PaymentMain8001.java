@@ -10,7 +10,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
  * EnableEurekaClient 开启eureka
  * EnableDiscoveryClient 开启服务发现
  *
- * @author zzyy
+ * @author FredG
  * @create 2020/2/17 21:13
  **/
 @SpringBootApplication

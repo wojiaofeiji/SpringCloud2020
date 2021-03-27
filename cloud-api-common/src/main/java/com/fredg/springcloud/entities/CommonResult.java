@@ -9,7 +9,7 @@ import java.io.Serializable;
 /**
  * 统一返回对象
  *
- * @author zzyy
+ * @author FredG
  * @date 2020/2/18 10:24
  **/
 @Data

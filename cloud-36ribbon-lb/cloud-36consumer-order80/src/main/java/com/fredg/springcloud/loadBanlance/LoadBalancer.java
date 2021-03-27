@@ -5,7 +5,7 @@ import org.springframework.cloud.client.ServiceInstance;
 import java.util.List;
 
 /**
- * @author zzyy
+ * @author FredG
  * @create 2020/3/6 16:03
  **/
 public interface LoadBalancer {

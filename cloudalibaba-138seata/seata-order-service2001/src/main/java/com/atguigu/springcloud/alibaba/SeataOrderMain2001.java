@@ -9,7 +9,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 /**
  * 取消数据源的自动配置
  *
- * @author zzyy
+ * @author FredG
  * @date 2020/3/8 12:21
  **/
 @EnableDiscoveryClient
