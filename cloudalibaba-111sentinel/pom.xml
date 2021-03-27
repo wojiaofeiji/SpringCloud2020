@@ -9,11 +9,18 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>cloualibaba-111sentinel</artifactId>
+    <artifactId>cloudalibaba-111sentinel</artifactId>
+    <packaging>pom</packaging>
 
-    <properties>
-        <maven.compiler.source>8</maven.compiler.source>
-        <maven.compiler.target>8</maven.compiler.target>
-    </properties>
+    <modules>
+        <module>cloudalibaba-111config-nacos-client3377</module>
+        <module>cloudalibaba-111consumer-nacos-order83</module>
+        <module>cloudalibaba-111consumer-nacos-order84</module>
+        <module>cloudalibaba-111sentinel-service8401</module>
+        <module>cloudalibaba-111provider-payment9001</module>
+        <module>cloudalibaba-111provider-payment9002</module>
+        <module>cloudalibaba-111provider-payment9003</module>
+        <module>cloudalibaba-111provider-payment9004</module>
+    </modules>
 
 </project>

@@ -27,7 +27,7 @@
         <module>cloud-92sleuth-zinpin</module>
         <module>cloudalibaba-95desc</module>
         <module>cloudalibaba-96Nacos</module>
-        <module>cloualibaba-111sentinel</module>
+        <module>cloudalibaba-111sentinel</module>
         <module>cloudalibaba-138seata</module>
     </modules>
 
