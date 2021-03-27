@@ -1,4 +1,4 @@
-package com.atguigu.springcloud.controller;
+package com.fredg.springcloud.controller;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;

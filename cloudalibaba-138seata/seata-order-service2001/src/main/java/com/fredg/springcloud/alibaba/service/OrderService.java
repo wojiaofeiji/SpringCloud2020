@@ -1,5 +1,5 @@
-package com.atguigu.springcloud.alibaba.service;
-import com.atguigu.springcloud.alibaba.domain.*;
+package com.fredg.springcloud.alibaba.service;
+import com.fredg.springcloud.alibaba.domain.*;
 
 /**
  * @author FredG

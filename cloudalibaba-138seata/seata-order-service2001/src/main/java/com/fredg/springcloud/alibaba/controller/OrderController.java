@@ -1,9 +1,9 @@
-package com.atguigu.springcloud.alibaba.controller;
+package com.fredg.springcloud.alibaba.controller;
 
-import com.atguigu.springcloud.alibaba.domain.CommonResult;
-import com.atguigu.springcloud.alibaba.domain.Order;
-import com.atguigu.springcloud.alibaba.service.IdGeneratorSnowflake;
-import com.atguigu.springcloud.alibaba.service.OrderService;
+import com.fredg.springcloud.alibaba.domain.CommonResult;
+import com.fredg.springcloud.alibaba.domain.Order;
+import com.fredg.springcloud.alibaba.service.IdGeneratorSnowflake;
+import com.fredg.springcloud.alibaba.service.OrderService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 

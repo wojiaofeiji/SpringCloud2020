@@ -1,4 +1,4 @@
-package com.atguigu.springcloud.controller;
+package com.fredg.springcloud.controller;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;

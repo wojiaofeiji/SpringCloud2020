@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>cloud-43openFeign-client</artifactId>
-        <groupId>com.atguigu.springcloud</groupId>
+        <groupId>com.fredg.springcloud</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -17,7 +17,7 @@
     <dependencies>
         <!--内部依赖-->
         <dependency>
-            <groupId>com.atguigu.springcloud</groupId>
+            <groupId>com.fredg.springcloud</groupId>
             <artifactId>cloud-api-common</artifactId>
             <!--这里必须声明 'dependencies.dependency.version'r is missing-->
             <version>${project.version}</version>

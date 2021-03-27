@@ -1,7 +1,7 @@
-package com.atguigu.springcloud.alibaba.service.impl;
+package com.fredg.springcloud.alibaba.service.impl;
 
-import com.atguigu.springcloud.alibaba.dao.AccountDao;
-import com.atguigu.springcloud.alibaba.service.AccountService;
+import com.fredg.springcloud.alibaba.dao.AccountDao;
+import com.fredg.springcloud.alibaba.service.AccountService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 

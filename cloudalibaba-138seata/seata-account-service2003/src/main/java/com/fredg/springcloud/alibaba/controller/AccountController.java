@@ -1,7 +1,7 @@
-package com.atguigu.springcloud.alibaba.controller;
+package com.fredg.springcloud.alibaba.controller;
 
-import com.atguigu.springcloud.alibaba.domain.CommonResult;
-import com.atguigu.springcloud.alibaba.service.AccountService;
+import com.fredg.springcloud.alibaba.domain.CommonResult;
+import com.fredg.springcloud.alibaba.service.AccountService;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;

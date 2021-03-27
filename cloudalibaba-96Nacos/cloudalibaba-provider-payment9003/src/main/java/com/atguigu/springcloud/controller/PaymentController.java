@@ -1,4 +1,4 @@
-package com.atguigu.springcloud.controller;
+package com.fredg.springcloud.controller;
 
 import cn.hutool.core.util.IdUtil;
 import com.fredg.springcloud.entities.CommonResult;

@@ -1,4 +1,4 @@
-package com.atguigu.springcloud.service;
+package com.fredg.springcloud.service;
 
 import com.fredg.springcloud.entities.CommonResult;
 import com.fredg.springcloud.entities.Payment;

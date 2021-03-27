@@ -1,4 +1,4 @@
-package com.atguigu.springcloud.alibaba.service;
+package com.fredg.springcloud.alibaba.service;
 
 import cn.hutool.core.lang.Snowflake;
 import cn.hutool.core.net.NetUtil;

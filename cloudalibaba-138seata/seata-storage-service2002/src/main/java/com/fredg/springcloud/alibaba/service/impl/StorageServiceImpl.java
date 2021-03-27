@@ -1,7 +1,7 @@
-package com.atguigu.springcloud.alibaba.service.impl;
+package com.fredg.springcloud.alibaba.service.impl;
 
-import com.atguigu.springcloud.alibaba.dao.StorageDao;
-import com.atguigu.springcloud.alibaba.service.StorageService;
+import com.fredg.springcloud.alibaba.dao.StorageDao;
+import com.fredg.springcloud.alibaba.service.StorageService;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
