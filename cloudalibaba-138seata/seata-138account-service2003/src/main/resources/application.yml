@@ -7,11 +7,14 @@ spring:
   cloud:
     alibaba:
       seata:
-        # 自定义事务组名称需要与seata-server中的对应
+        # 自定义事务组名称需要与seata-server中的对应, 否则会出现Could not found property service.vgroup_mapping.default, try to use default value instead.
+        # 对应的服务器上是
+        # service {
+        #  vgroup_mapping.my_test_tx_group = "fsp_tx_group"
         tx-service-group: fsp_tx_group
     nacos:
       discovery:
-        server-addr: 127.0.0.1:8848
+        server-addr: 192.168.1.111:8848
   datasource:
     # 当前数据源操作类型
     type: com.alibaba.druid.pool.DruidDataSource

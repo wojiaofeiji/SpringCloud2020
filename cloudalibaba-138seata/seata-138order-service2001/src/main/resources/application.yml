@@ -1,9 +1,9 @@
 server:
-  port: 2002
+  port: 2001
 
 spring:
   application:
-    name: seata-storage-service
+    name: seata-order-service
   cloud:
     alibaba:
       seata:
@@ -11,13 +11,13 @@ spring:
         tx-service-group: fsp_tx_group
     nacos:
       discovery:
-        server-addr: 127.0.0.1:8848
+        server-addr: 192.168.1.111:8848
   datasource:
     # 当前数据源操作类型
     type: com.alibaba.druid.pool.DruidDataSource
     # mysql驱动类
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/seata_storage?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=GMT%2B8
+    url: jdbc:mysql://localhost:3306/seata_order?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=GMT%2B8
     username: root
     password: linux
 feign:

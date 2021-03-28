@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>seata-account-service2003</artifactId>
+    <artifactId>seata-138storage-service2002</artifactId>
 
     <dependencies>
         <!-- nacos -->

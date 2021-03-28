@@ -13,9 +13,9 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>seata-account-service2003</module>
-        <module>seata-order-service2001</module>
-        <module>seata-storage-service2002</module>
+        <module>seata-138account-service2003</module>
+        <module>seata-138order-service2001</module>
+        <module>seata-138storage-service2002</module>
     </modules>
 
 </project>
