@@ -1,5 +1,9 @@
 spring:
   profiles:
-    active: dev # 开发环境
-#    active: test # 测试环境
+#    active: dev # 开发环境
+    active: test # 测试环境
 #    active: proc # 生产环境
+
+
+config:
+  info: this is from application.yml
