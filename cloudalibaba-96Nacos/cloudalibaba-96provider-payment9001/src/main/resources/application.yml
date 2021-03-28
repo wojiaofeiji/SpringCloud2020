@@ -1,0 +1,20 @@
+server:
+  port: 9001
+
+spring:
+  application:
+    name: nacos-payment-provider
+  cloud:
+    nacos:
+      discovery:
+        # 可配置nginx地址
+        server-addr: 192.168.1.111:8848
+        namespace: deb7a919-aa69-4c4f-a172-129acbe7e12c
+        # 这个没起作用
+        group: TEST_GROUP
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

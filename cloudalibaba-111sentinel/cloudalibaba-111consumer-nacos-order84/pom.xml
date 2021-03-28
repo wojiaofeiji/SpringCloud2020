@@ -9,8 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>cloudalibaba-consumer-nacos-order84</artifactId>
-
+    <artifactId>cloudalibaba-111consumer-nacos-order84</artifactId>
+    <description>sentinel整合ribbon+openFien+fallback</description>
 
     <dependencies>
         <dependency>

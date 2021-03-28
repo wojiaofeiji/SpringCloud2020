@@ -10,10 +10,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>cloudalibaba-96Nacos</artifactId>
+    <packaging>pom</packaging>
 
-    <properties>
-        <maven.compiler.source>8</maven.compiler.source>
-        <maven.compiler.target>8</maven.compiler.target>
-    </properties>
+   <modules>
+       <module>cloudalibaba-96provider-payment9002</module>
+       <module>cloudalibaba-96provider-payment9001</module>
+       <module>cloudalibaba-96config-nacos-client3377</module>
+       <module>cloudalibaba-96consumer-nacos-order83</module>
+   </modules>
 
 </project>
