@@ -6,11 +6,12 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: localhost:8848 # 注册中心
+        server-addr: 192.168.1.111:8848 # 注册中心
       config:
-        server-addr: localhost:8848 # 配置中心
+        server-addr: 192.168.1.111:8848 # 配置中心
         file-extension: yml # 这里指定的文件格式需要和nacos上新建的配置文件后缀相同，否则读不到
         group: TEST_GROUP
-        namespace: 4ccc4c4c-51ec-4bd1-8280-9e70942c0d0c
+        # 创建命名空间后，会出现的加密串，不是命名空间的名字.
+        namespace: deb7a919-aa69-4c4f-a172-129acbe7e12c
 
-#  ${spring.application.name}-${spring.profile.active}.${spring.cloud.nacos.config.file-extension}
+# DataId的完整格式：  ${spring.application.name}-${spring.profile.active}.${spring.cloud.nacos.config.file-extension}
