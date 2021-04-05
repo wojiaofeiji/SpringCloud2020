@@ -8,7 +8,10 @@
     <artifactId>cloud2020</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <description>父工程,统一管理jar包版本</description>
+    <description>
+        父工程,统一管理jar包版本
+        从阳哥视频学习Spring Cloud的相关实例，并且按章节进行区分
+    </description>
 
     <modules>
         <module>cloud-api-common</module>
